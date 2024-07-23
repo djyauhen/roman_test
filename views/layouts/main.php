@@ -77,6 +77,8 @@ AppAsset::register($this);
     </div>
 </footer>
 
+<script src="./scripts/helper.js"></script>
+
 <?php $this->endBody() ?>
 </body>
 </html>

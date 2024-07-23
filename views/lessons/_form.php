@@ -12,11 +12,11 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'title')->textarea(['rows' => 6]) ?>
+    <?= $form->field($model, 'title')->textarea(['rows' => 1]) ?>
 
-    <?= $form->field($model, 'description')->textarea(['rows' => 6]) ?>
+    <?= $form->field($model, 'description')->textarea(['rows' => 4]) ?>
 
-    <?= $form->field($model, 'video_href')->textarea(['rows' => 6]) ?>
+    <?= $form->field($model, 'video_href')->textarea(['rows' => 1]) ?>
 
     <?= $form->field($model, 'date')->textInput() ?>
 

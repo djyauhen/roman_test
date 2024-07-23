@@ -7,7 +7,6 @@ use yii\helpers\Html;
 
 $this->title = 'Create Lessons';
 $this->params['breadcrumbs'][] = ['label' => 'Lessons', 'url' => ['index']];
-$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="lessons-create">
 
