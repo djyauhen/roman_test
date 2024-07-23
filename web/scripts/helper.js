@@ -6,6 +6,7 @@
         // Инициализируем
         init: () => {
             itlogiaModalWindow.createStyles();
+            console.log();
             itlogiaModalWindow.loader();
 
             // Создаем кнопку открытия модального окна
